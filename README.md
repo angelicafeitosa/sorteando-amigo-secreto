@@ -25,8 +25,8 @@ Ele permite que você adicione nomes de amigos, visualize a lista e sorteie alea
 ---
 
 ## 🚀 Como usar
-1. Clone este repositório ou baixe os arquivos:  
-   ```bash
+1. Clone este repositório ou baixe os arquivos:
+```
 git clone https://github.com/seu-usuario/amigo-secreto.git
 ```
 2. Abra o arquivo index.html no navegador.
