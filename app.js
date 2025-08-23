@@ -62,7 +62,8 @@ let indiceAleatorio = Math.floor(Math.random() * disponiveis.length);
 }
 
 function reiniciarSorteio() {
-    sorteados = [];
-    atualizarLista();
-    document.getElementById("resultado").innerHTML = "";
+    amigos = []; // limpa a lista de amigos
+    sorteados = []; // limpa os sorteados
+    atualizarLista(); // atualiza a interface
+    document.getElementById("resultado").innerHTML = ""; // limpa o resultado
 }
