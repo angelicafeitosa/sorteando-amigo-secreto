@@ -89,9 +89,13 @@ body {
 }
 
 .button-container {
-    width: 300px;
-    justify-content: center;
+  display: flex;
+  justify-content: center; /* centraliza os botões horizontalmente */
+  align-items: center;
+  gap: 15px; /* espaço entre os botões */
+  margin-top: 20px;
 }
+
 
 /* Estilos de entrada de texto */
 .input-title {
@@ -189,7 +193,7 @@ ul {
     border: 2px dashed #7229cc;
     padding: 10px 20px;
     border-radius: 15px;
-    color: #58c;
+    color: #7229cc;
     font-size: 22px;
     font-weight: 700;
     animation: fadeIn 0.5s ease-in-out;
@@ -201,11 +205,15 @@ ul {
 }
 
 .button-reset {
-    margin-top: 20px;
     background-color: #7229cc;
     color: #ffffff;
     border: 2px solid #58c;
+    padding: 10px 20px;
+    borde-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
     transition: background-color 0.3s ease;
+    text-align: center;
 }
 
 .button-reset:hover {
