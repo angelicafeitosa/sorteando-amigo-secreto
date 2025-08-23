@@ -220,3 +220,7 @@ ul {
     background-color: #58c;
     color: #fff;
 }
+
+.hidden {
+    display: none;
+}
