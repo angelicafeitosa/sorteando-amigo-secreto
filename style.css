@@ -166,3 +166,50 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* Estilo para nomes sorteados */
+.name-list li.sorteado {
+    text-decoration: line-through;
+    color: #aaa;
+    font-style: italic;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.name-list li.sorteado::before {
+    content: "✔";
+    position: absolute;
+    left: -25px;
+    color: #58c;
+    font-weight: bold;
+}
+
+.result-list li {
+    background-color: #fff;
+    border: 2px dashed #7229cc;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #7229cc;
+    font-size: 22px;
+    font-weight: 700;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.button-reset {
+    margin-top: 20px;
+    background-color: #fff;
+    color: #7229cc;
+    border: 2px solid #7229cc;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button-reset:hover {
+    background-color: #7229cc;
+    color: #fff;
+}
