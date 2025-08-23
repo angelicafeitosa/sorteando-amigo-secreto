@@ -42,7 +42,7 @@ git clone https://github.com/seu-usuario/amigo-secreto.git
 ---
 
 ## 👩🏾 Autora
-<div style="display: flex; align-items: center; gap: 15px;">
-  <img src="img/fotodeperfil-eu.png" width="120" style="border-radius: 50%;" alt="Foto de perfil">
-  <p><b>Angélica Feitosa</b></p>
-</div>
+
+<img src="assets/fotodeperfil-eu.png" width="120" alt="Foto de perfil" />
+
+**Angélica Feitosa**
