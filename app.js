@@ -43,6 +43,7 @@ function sortearAmigo() {
 
     if (disponiveis.length === 0) {
         alert("Todos os amigos já foram sorteados!");
+        document.querySelector(".button-reset").classList.remove("hidden");
         return;
 }
 
@@ -62,6 +63,7 @@ let indiceAleatorio = Math.floor(Math.random() * disponiveis.length);
 }
 
 function reiniciarSorteio() {
+    document.querySelector("button-reset").classList.add("hidden");
     amigos = []; // limpa a lista de amigos
     sorteados = []; // limpa os sorteados
     atualizarLista(); // atualiza a interface
