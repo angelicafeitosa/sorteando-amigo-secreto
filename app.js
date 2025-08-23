@@ -2,23 +2,19 @@ let amigos = [];
 let sorteados = [];
 
 function adicionarAmigo() {
-    // 1. capturar o valor do campo de entrada
+
     let input = document.getElementById("nomeAmigo");
     let nome = input.value.trim(); // trim() remove espaços extras
 
-    // 2. validar a entrada
     if (nome === "") {
         alert("Por favor, insira um nome válido");
-        return; // interrompe a função se estiver vazio
+        return;
     }
 
-    // 3. atualizar o array de amigos
 amigos.push(nome);
 
-// mostrar a lista atualizada
 atualizarLista();
 
-// 4. limpar o campo de entrada
 input.value = "";
 }
 
@@ -58,12 +54,12 @@ let indiceAleatorio = Math.floor(Math.random() * disponiveis.length);
     li.textContent = "🎉 O amigo sorteado foi: " + amigoSorteado;
     resultado.appendChild(li);
 
-    atualizarLista(); // atualiza a lista com o nome riscado
+    atualizarLista();
 }
 
 function reiniciarSorteio() {
-    amigos = []; // limpa a lista de amigos
-    sorteados = []; // limpa os sorteados
-    atualizarLista(); // atualiza a interface
-    document.getElementById("resultado").innerHTML = ""; // limpa o resultado
+    amigos = [];
+    sorteados = [];
+    atualizarLista();
+    document.getElementById("resultado").innerHTML = "";
 }
