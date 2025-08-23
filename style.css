@@ -189,7 +189,7 @@ ul {
     border: 2px dashed #7229cc;
     padding: 10px 20px;
     border-radius: 15px;
-    color: #7229cc;
+    color: #58c;
     font-size: 22px;
     font-weight: 700;
     animation: fadeIn 0.5s ease-in-out;
@@ -202,14 +202,13 @@ ul {
 
 .button-reset {
     margin-top: 20px;
-    background-color: #fff;
-    color: #7229cc;
-    border: 2px solid #7229cc;
-    font-weight: bold;
+    background-color: #7229cc;
+    color: #ffffff;
+    border: 2px solid #58c;
     transition: background-color 0.3s ease;
 }
 
 .button-reset:hover {
-    background-color: #7229cc;
+    background-color: #58c;
     color: #fff;
 }
