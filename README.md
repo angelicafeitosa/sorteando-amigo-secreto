@@ -1,4 +1,4 @@
-# 🎁 Amigo Secreto
+# 🎁 Desafio Amigo Secreto
 
 ## 📌 Sobre
 Este é um projeto simples de **Amigo Secreto**, desenvolvido com **HTML, CSS e JavaScript**.  
@@ -38,3 +38,11 @@ git clone https://github.com/seu-usuario/amigo-secreto.git
 5. Clique em Sortear Amigo para escolher aleatoriamente um amigo secreto.
 
 6. O resultado será exibido na tela.
+
+---
+
+## 👩🏾 Autora
+<div style="display: flex; align-items: center; gap: 15px;">
+  <img src="img/fotodeperfil-eu.png" width="120" style="border-radius: 50%;" alt="Foto de perfil">
+  <p><b>Angélica Feitosa</b></p>
+</div>
